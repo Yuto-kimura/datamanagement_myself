@@ -17,3 +17,9 @@ daisB = random.randint(1,6)
 result = daisA + daisB
 menu_item1.dais(daisA,daisB)
 print("Total value:"+str(result))
+
+
+if result > 7:
+    print("You won!")
+else:
+    print("You lost.")
