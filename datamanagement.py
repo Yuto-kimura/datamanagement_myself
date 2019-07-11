@@ -10,10 +10,7 @@ class MenuItem:
         print("Hello,"+self.name+"!")
     def win(self,times,resu,win,lost):
         print("After "+str(times)+" experiments, "+self.name+" won "+str(win)+" times, lost "+str(lost)+" times. And the probability of winning was "+str(resu)+"%.")
-        # print("So,"+self.name+" won!")
-    # def lost(self,times,avg,win,lost):
-    #     print("After "+str(times)+" experiments, "+self.name+" won"+str(win)+" times, lost"+str(lost)+" times and the average was "+str(avg)+" times.")
-        # print("So,"+self.name+" won!")
+
 
 win=0
 lost=0
